@@ -1,4 +1,4 @@
-# Homework1-TDD 
+# Homework1_TDD 
 This repository contains a TDD Java project using junit 4.12 library.
 
 # Project requirements
