@@ -1,7 +1,7 @@
 # Homework1_TDD 
 This repository contains a TDD Java project using junit 4.12 library.
 
-#Project requirements
+# Project requirements
 1. Create a class that will test the methods of a Stack
    - Name this class - CustomStackTest
 2. Create the implementation of a Stack
@@ -19,7 +19,7 @@ This repository contains a TDD Java project using junit 4.12 library.
       - make a test function to test if -1 is returned when object is not found
 4. Name methods having in mind 'GIVEN - WHEN - THEN' style
 
-#TDD class
+**TDD class**
 -CustomStack
   -CustomStackTest
 
