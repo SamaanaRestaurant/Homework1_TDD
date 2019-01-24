@@ -20,6 +20,6 @@ This repository contains a TDD Java project using junit 4.12 library.
 4. Name methods having in mind 'GIVEN - WHEN - THEN' style
 
 **TDD class**
--CustomStack
-  -CustomStackTest
+- CustomStack
+  - CustomStackTest
 
