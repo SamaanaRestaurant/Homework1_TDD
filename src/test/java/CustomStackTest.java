@@ -60,12 +60,14 @@ public class CustomStackTest {
     public void testWhenAStackHasAnElementPeekMethodReturnsThatElement(){
         customStack.push(new Integer(10));
         assertThat(customStack.peek(), is(new Integer(10)));
+        assertThat(customStack.size(), is(1));
     }
     @Test
-    public void testWhenAStackHasTwoElementsPeekMethodReturnsSecondElement(){
+    public void testWhenAStackHasTwoElementsPeekMethodReturnsLastAddedElement(){
         customStack.push(new Integer(10));
         customStack.push(new Integer(11));
         assertThat(customStack.peek(), is(new Integer(11)));
+        assertThat(customStack.size(), is(2));
     }
 
     @Test(expected = RuntimeException.class)
@@ -83,7 +85,7 @@ public class CustomStackTest {
         assertThat(customStack.size(), is(new Integer(0)));
     }
     @Test
-    public void testWhenAStackHasTwoElementsPopMethodReturnsSecondElementAndRemovesItFromStack(){
+    public void testWhenAStackHasTwoElementsPopMethodReturnsLastAddedElementAndRemovesItFromStack(){
         customStack.push(new Integer(20));
         customStack.push(new Integer(23));
         // customStack.pop();
